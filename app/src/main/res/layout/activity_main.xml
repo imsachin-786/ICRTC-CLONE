@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/signback"
+    >
+
+    <ImageView
+        android:src="@drawable/stamp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        />
+
+
+        <Button
+            android:id="@+id/Login"
+            android:layout_width="122dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            />
+
+    <TextView
+        android:id="@+id/newRegister"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text="New User ? Register"
+        android:textSize="16dp"
+        />
+</LinearLayout>
